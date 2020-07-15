@@ -1,0 +1,226 @@
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #204051;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 40%;
+  border-color: #3b6978;
+  border-width: 1rem;
+  background-color: inherit;
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+  /* background-image: radial-gradient(circle, rgba(228, 227, 227, 1) 38%, rgba(132, 169, 172, 1) 69%); */
+  background-color: #84a9ac;
+  /* padding-bottom: 40%;
+    position: relative; */
+}
+
+.my-nav {
+  display: inline;
+  background-color: #e4e3e3;
+}
+
+.nv {
+  list-style-type: none;
+  padding: 2rem 5% 5%;
+}
+
+.nv-item {
+  display: inline;
+  /* margin: 1.5rem 0.8rem; */
+}
+
+.nv-link {
+  font-family: "Merriweather", serif;
+  color: #3b6978;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: auto 2%;
+}
+
+.nv-link:hover, .nv-link:active {
+  color: #204051;
+  text-decoration: none;
+  border: none;
+}
+
+/* Card */
+.my-card {
+  color: #204051;
+  background-image: radial-gradient(circle, rgba(132, 169, 172, 1) 20%, rgba(228, 227, 227, 1) 84%);
+  border-radius: 20%;
+  border: none;
+  width: 32%;
+  display: inline-block;
+  margin: auto auto 5%;
+  /* position: absolute; */
+  /* z-index: 1; */
+  /* left: 30%;
+  top: 10%; */
+  /* left: 28rem; */
+  /* top: 5rem; */
+  padding: 5rem 0;
+}
+
+.big-heading {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.my-img {
+  border-radius: 100%;
+  width: 60%;
+  margin: 10% auto;
+}
+
+/* About Section */
+#about {
+  padding: 1% 0 1%;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #84a9ac;
+}
+
+.about-par, .hobbies {
+  padding: 7% 35% 1%;
+}
+
+.hobbies {
+  padding-bottom: 7%;
+}
+
+.about-heading {
+  padding-bottom: 3%;
+}
+
+/* Skills Section */
+#skills {
+  padding: 7% 0;
+  background-color: #204051;
+}
+
+.skills-heading {
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+.skill-col {
+  padding: 3% 2%;
+}
+
+.skill-card {
+  padding: 7%;
+  background-color: #e4e3e3;
+  border-radius: 3%;
+}
+
+.skillset-col {
+  padding-bottom: 1%;
+  padding: auto 2% 1%;
+}
+
+.skillset-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.skillset-txt {
+  text-align: left;
+}
+
+.jq-icon {
+  width: 2em;
+}
+
+.ejs-icon {
+  font-weight: 700;
+}
+
+.skills-ft-note {
+  color: #fff;
+  margin-top: 3%;
+  font-family: "Merriweather", serif;
+}
+
+.Lskills {
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.hr-loading {
+  margin-top: 10%;
+}
+
+/* Contact Section */
+#contact-me {
+  text-align: left;
+  padding: 3% 30% 5%;
+}
+
+.contact-heading {
+  padding: 7% 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.contact-form {
+  padding-left: 3%;
+}
+
+.input-field {
+  border-radius: 10px;
+  color: #A0A0A0;
+  border-width: 1px;
+}
+
+.txt-msg {
+  margin-left: 13px;
+}
+
+.btn-container {
+  padding: 3% 40% 5%;
+}
+
+.submit-btn {
+  border-radius: 10px;
+  border-width: 1px;
+  background-image: linear-gradient(to bottom,#84a9ac, #204051 );
+  color: #fff;
+}
+.submit-btn:hover{
+    background-image: linear-gradient(to bottom,#204051, #84a9ac );
+      color: #fff;
+}
+/* Footer Section */
+#footer {
+  padding: 5% 30%;
+}
+
+.social-icon {
+  color: #3b6978;
+  padding: 3% 7%;
+}
+
+.social-icon:hover {
+  color: #204051;
+}
+
+.social-container, .copyright-container {
+  padding-bottom: 4%;
+}
