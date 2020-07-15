@@ -1,8 +1,13 @@
-body {
+html, body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #204051;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 hr {
@@ -200,13 +205,15 @@ hr {
 .submit-btn {
   border-radius: 10px;
   border-width: 1px;
-  background-image: linear-gradient(to bottom,#84a9ac, #204051 );
+  background-image: linear-gradient(to bottom, #84a9ac, #204051);
   color: #fff;
 }
-.submit-btn:hover{
-    background-image: linear-gradient(to bottom,#204051, #84a9ac );
-      color: #fff;
+
+.submit-btn:hover {
+  background-image: linear-gradient(to bottom, #204051, #84a9ac);
+  color: #fff;
 }
+
 /* Footer Section */
 #footer {
   padding: 5% 30%;
