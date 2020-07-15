@@ -154,6 +154,11 @@ hr {
 
 .ejs-icon {
   font-weight: 700;
+  padding-top: 1.3%;
+}
+
+.express-icon {
+  font-family: helvetica neue, open sans, sans-serif;
 }
 
 .skills-ft-note {
@@ -221,7 +226,7 @@ hr {
 
 .social-icon {
   color: #3b6978;
-  padding: 3% 7%;
+  margin: 3% 7%;
 }
 
 .social-icon:hover {
